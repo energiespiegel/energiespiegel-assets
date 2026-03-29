@@ -602,6 +602,7 @@ ${gpFollowupBlock("rot")}
 
     window.nextStep = nextStep;
     window.prevStep = prevStep;
+    window.scrollToHero = scrollToHero;
 
     initTest();
   });
