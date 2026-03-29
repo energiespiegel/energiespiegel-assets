@@ -376,7 +376,7 @@
         var val = checked ? parseInt(checked.value, 10) : 0;
 
         total += (val * w);
-        maxTotal += (2 * w);
+        maxTotal += (4 * w);
       });
 
       var pct = maxTotal ? Math.round((total / maxTotal) * 100) : 0;
