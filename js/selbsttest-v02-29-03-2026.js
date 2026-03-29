@@ -313,11 +313,11 @@
     gpGetOrCreateSessionId();
     gpGetVisitorId();
 
-    var result = document.getElementById("gpResult");
-    var resTitle = document.getElementById("gpResultTitle");
-    var resBody = document.getElementById("gpResultBody");
-    var dot = document.getElementById("gpDot");
-    var resetBtn = document.getElementById("gpResetBtn");
+    var result = document.getElementById("esResult");
+    var resTitle = document.getElementById("esResultTitle");
+    var resBody = document.getElementById("esResultBody");
+    var dot = document.getElementById("esDot");
+    var resetBtn = document.getElementById("esResetBtn");
     var progressWrap = document.querySelector(".progress-wrap");
     var firstQuestion = document.querySelector('.question[data-step="1"]');
 
