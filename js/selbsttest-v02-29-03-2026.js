@@ -19,22 +19,22 @@ const allowedHosts = [
     return;
   }
 
-  function gpIsTestPage(path) {
-    if (!path) return false;
+ function gpIsTestPage(path) {
+  if (!path) return false;
 
-    return (
-      path.indexOf("/selbsttest/") === 0 ||
-      path === "/testscript" ||
-      path.indexOf("/testscript/") === 0
-    );
-  }
-
+  return (
+    path === "/" ||
+    path.indexOf("/selbsttest/") === 0 ||
+    path === "/testscript" ||
+    path.indexOf("/testscript/") === 0
+  );
+}
 // const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
 // if (!gpIsTestPage(currentPath)) {
 //   return;
 // }
 
-  const GP_FORM_VER = "2026-03-20-2";
+  const GP_FORM_VER = "2026-03-29-1";
   const TOTAL_QUESTIONS = 10;
 
   console.log("SELBSTTEST AKTIV", GP_FORM_VER);
