@@ -831,7 +831,7 @@
       }
 
       .question,
-      #result {
+      #esResult {
         padding: 0;
         border-radius: 0;
       }
